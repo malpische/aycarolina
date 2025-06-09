@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background:linear-gradient(#aebb94, rgb(249, 255, 224)) ;*/
+    background-color: #aebb94;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6em;
+    justify-content: center;
+
+}
+/* menu y header*/
+header{
+    background-color: white;
+     padding: 1.2rem;
+     width: 1022px;
+     margin: 0 auto;
+}
+.logo{
+   padding-left: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu_links{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    
+
+}
+
+
+.menu_links a{
+    color: #999A92;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom:#EBB9BC solid 4px;
+    height: 20px;
+    padding: 15px;
+}
+.menu_links a:hover{
+    border-bottom:#A6AF9A solid 4px;
+    border-right:#A6AF9A solid 4px;
+    background-color: #C3CBB3;
+    color: white;
+
+}
+/*carrusel*/
+
+.image_xl{
+    margin: 0 auto;
+    width:1022px;
+    height: auto;
+}
+/* mini card*/
+
+.mini_foto_link{
+    display:flex ;
+    background-color: white;
+    justify-content: center;
+    margin: 0 auto;
+    width:1022px;
+    height: auto;
+}
+.card-ay{
+    display: flex;
+    padding: 20px;
+}
+.img-card{
+    display: block;
+}
+.btn-ay{
+    background-color: #EBB9BC;
+    color: white;
+    float: right;
+}
+.btn-ay a{
+    text-decoration: none;
+    position: absolute;
+  top: 50%; /* ajuste para colocar en el centro, cambia según necesites */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* opcional, para que sea visible */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+/*formulario recetas*/
+.cooking_planning{
+    background-color: #F3D1D0;
+    width: 1022px;
+    margin: 0 auto;
+    font-family: "Delius", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+.cooking_planning h2{
+    display: flex;
+    justify-content: center;
+    color: #333;
+    padding: 10px;
+}
+.cooking_planning h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+.formulario{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+.im-text{
+  border: 2px solid #A6AF9A;
+  margin: 10px;
+  padding: 8px;
+  font-family: "Delius", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.enviar{
+    border-bottom:#A6AF9A solid 4px;
+    border-right:#A6AF9A solid 4px;
+    background-color: #C3CBB3;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+/* contenido*/
+
+.container{
+    width: 1022px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+/* footer */
+footer{
+    background-color: #9AA988;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 1022px;
+    margin: 0 auto;
+    display: flex;
+}
+    
+    
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 80px 50px auto 60px ;
+    grid-template-areas:"img texto social";
+    gap: 10px;
+    padding: 20px;
+}
+.item1{
+    grid-area: img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_foot{
+    grid-area: texto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sociales{
+    grid-area: social;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.sociales li a{
+    text-decoration: none;
+}
+.footer-bottom{
+   display: flex;
+}
