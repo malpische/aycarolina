@@ -104,17 +104,20 @@ header{
     justify-content: center;
     color: #333;
     padding: 10px;
+    font-size: 23px;
 }
 .cooking_planning h3{
     display: flex;
     justify-content: center;
-    color: white;
+    color:#8F8D8E;
     font-size: 18px;
+    
 }
 .formulario{
-    padding: 35px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    
 }
 .im-text{
   border: 2px solid #A6AF9A;
@@ -123,6 +126,7 @@ header{
   font-family: "Delius", cursive;
   font-weight: 700;
   font-style: normal;
+  border-radius: 10px;
 }
 
 .enviar{
