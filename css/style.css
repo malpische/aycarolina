@@ -293,3 +293,37 @@ footer{
   border-radius: 10px;
   width: 100%;
 }
+/*nosotras*/
+.nosotras{
+    display: flex;
+    align-items: center;
+    background-color: #fff9f9;
+    flex-direction: row-reverse;
+    padding: 20px;
+    border-radius: 10px;
+    }
+   
+.col-md-6 img{
+    width:auto;
+    height: auto;
+    border-radius: 10px;
+}
+.col-md-6 .texto{
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-variation-settings: "wdth" 100;
+}
+.col-md-6 .titulo{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #94a377;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.col-md-6 p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6em;
+}
