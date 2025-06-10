@@ -82,17 +82,18 @@ header{
     grid-area: 1/1; /* recordatorio coloca el botón en la misma celda que la imagen */
     justify-self: end;
     align-self: anchor-center;
-    background-color: rgba(243, 209, 208, 0.8);
+    background-color: rgba(237, 181, 180, 0.8);
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 50px;
 }
 
 /*formulario recetas*/
 .cooking_planning{
-    background-color: #F3D1D0;
+    background-color: #edb5b4;
     width: 1022px;
     margin: 0 auto;
     font-family: "Delius", cursive;
