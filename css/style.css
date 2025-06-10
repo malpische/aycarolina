@@ -70,29 +70,25 @@ header{
     height: auto;
 }
 .card-ay{
-    display: flex;
+    display:grid;
     padding: 20px;
 }
-.img-card{
-    display: block;
+.card-ay img{
+    grid-area: 1/1;
+    width: 100%;
+    height: auto;
 }
-.btn-ay{
-    background-color: #EBB9BC;
+.card-ay a{
+    grid-area: 1/1; /* recordatorio coloca el botón en la misma celda que la imagen */
+    justify-self: end;
+    align-self: anchor-center;
+    background-color: rgba(243, 209, 208, 0.8);
     color: white;
-    float: right;
-}
-.btn-ay a{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
     text-decoration: none;
-    position: absolute;
-  top: 50%; /* ajuste para colocar en el centro, cambia según necesites */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7); /* opcional, para que sea visible */
-  border: none;
-  padding: 10px;
-  cursor: pointer;
 }
-
 
 /*formulario recetas*/
 .cooking_planning{
