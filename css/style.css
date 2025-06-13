@@ -16,10 +16,14 @@ header{
     background-color: white;
      padding: 1.2rem;
      width: 1022px;
+     height: 150px;
      margin: 0 auto;
 }
 .logo{
    padding-left: 20px;
+}
+.logo img{
+    height: 130px;
 }
 .menu{
     display: flex;
