@@ -199,8 +199,6 @@ footer{
     
 .footer-content{
     display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 80px 50px auto 60px ;
     grid-template-areas:"img texto social";
     gap: 10px;
     padding: 20px;
@@ -223,9 +221,9 @@ footer{
     justify-content:end;
     align-items: center;
 }
+.sociales li {
+    list-style: none;;
+}
 .sociales li a{
     text-decoration: none;
-}
-.footer-bottom{
-   display: flex;
 }
