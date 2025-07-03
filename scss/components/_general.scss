@@ -1,5 +1,3 @@
-@import "variables";
-
 *{
     margin: 0 auto;
     padding: 0;
@@ -7,7 +5,7 @@
 
 
 body{
-    background-color:$bg-color;
+    background-color: $bg-color;
     color: #333;
     font-family: "Roboto", sans-serif;
     line-height: 1.6em;
@@ -65,7 +63,7 @@ header{
 
 .image_xl{
     margin: 0 auto;
-    width:1022px;
+    width: 100%;
     height: auto;
 }
 /*presentacion*/
@@ -111,7 +109,7 @@ header{
     background-color: white;
     justify-content: center;
     margin: 0 auto;
-    width:1022px;
+    width:100%;
     height: auto;
 }
 .card-ay{
@@ -139,7 +137,7 @@ header{
 /*formulario recetas*/
 .cooking_planning{
     background-color: #edb5b4;
-    width: 1022px;
+    width: 100%;
     margin: 0 auto;
     font-family: "Edu NSW ACT Cursive", cursive;
     font-weight: 700;
@@ -187,7 +185,7 @@ header{
 /* contenido*/
 
 .container{
-    width: 1022px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
