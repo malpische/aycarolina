@@ -1,6 +1,7 @@
 @import "variables";
+
 @media (min-width: 768px) {
-    .image_xl .presentacion {
+    header,.image_xl, .presentacion {
         max-width: 720px;
     }
 }
@@ -191,7 +192,7 @@ header{
 }
 /* contenido*/
 
-.container{
+.contenedor{
     width: 100%;
     margin: 0 auto;
     padding: 20px;
