@@ -1,3 +1,10 @@
+@import "variables";
+@media (min-width: 768px) {
+    .image_xl .presentacion {
+        max-width: 720px;
+    }
+}
+
 *{
     margin: 0 auto;
     padding: 0;
