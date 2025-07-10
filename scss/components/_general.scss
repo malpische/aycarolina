@@ -1,11 +1,15 @@
 @import "variables";
 
-@media (min-width: 768px) {
-    header,.image_xl, .presentacion {
-        max-width: 720px;
-    }
+@media (min-width: map-get($container-max-widths, sm)) {
+  .contenedor, .presentacion, .cooking_planning{
+    max-width: map-get($container-max-widths, sm);
+  }
 }
-
+@media (min-width: map-get($container-max-widths, md)) {
+  .contenedor, .presentacion, .cooking_planning{
+    max-width: map-get($container-max-widths, md);
+  }
+}
 *{
     margin: 0 auto;
     padding: 0;
@@ -206,6 +210,7 @@ header{
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 20px;
     width: 100%;
+    background-color: aliceblue;
 }
 .blog img{
     width: 100%;
