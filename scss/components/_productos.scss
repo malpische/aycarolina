@@ -2,3 +2,23 @@
     padding: 40px;
     background-color: #f7f2e8;
 }
+.category{
+    text-align: center;
+    margin: 20px 0;
+}
+.btn_gral{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #EDB5B4;
+    border: none;
+    border-bottom:#d6908f solid 4px;
+    border-right:#d6908f solid 4px;
+}
+
+.btn_gral:hover{
+    background-color: #333;
+    border: none;
+    border-top:#666 solid 4px;
+    border-left:#666 solid 4px;
+}
